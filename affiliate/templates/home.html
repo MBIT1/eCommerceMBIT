@@ -1,0 +1,292 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>MBIT - Muevete en Cancún</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'affiliate/css/modern-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MBIT-Vacations</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dates
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">Page</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">Page</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">Page</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">Page</a>
+              <a class="dropdown-item" href="portfolio-item.html">Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Information
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Information</a>
+              <a class="dropdown-item" href="blog-home-2.html">Information</a>
+              <a class="dropdown-item" href="blog-post.html">Information</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{% static  'affiliate/images/1.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Enjoy your life</h3>
+            <p>Click here .</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static  'affiliate/images/2.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Relax</h3>
+            <p> 60% discount.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static  'affiliate/images/3.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Smile</h3>
+            <p>Click here.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">Welcome to Cancún</h1>
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Tours</h4>
+          <div class="card-body">
+            <p class="card-text">Conoce los Tours que tenemos preparados especialmente para ti, desde los Cenotes mas hermosos del mundo, las playas con el agua mas cristalisa y las hermosas ruinas Mayas.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Hospedaje</h4>
+          <div class="card-body">
+            <p class="card-text">Los mejores precios de hospedaje en los mejores hoteles para que disfrutes tu estadia en este paraiso terrenal.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Paquetes</h4>
+          <div class="card-body">
+            <p class="card-text">Los mejores paquetes de Avion, hospedaje y Tours al mejor precio.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Know Cancún</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2PyXC49"><img class="card-img-top" src="{% static 'affiliate/images/7Bocas.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2PyXC49">Cenote 7 Bocas Modificacion</a>
+            </h4>
+            <p class="card-text">Ven a conocer este maravilloso cambio .</p>
+            <button type="button" class="btn btn-secondary">Here</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/dosOjos.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Cenote 2 Ojos </a>
+            </h4>
+            <p class="card-text">Disfruta de un dia de relajacion total junto a la naturaleza</p>
+            <a href="https://amzn.to/2PyXC49" class="btn btn-secondary">Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/EkBalam.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">EkBalam</a>
+            </h4>
+            <p class="card-text">Cerca de una de las 7 maravillas del mundo , se localiza este magnifico cenote con aguas cristalinas</p>
+            <button type="button" class="btn btn-secondary">Here</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/7.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Hotel</a>
+            </h4>
+            <p class="card-text">Lorem ipsum .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/8.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Hotel</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/9.jpg'%}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Hotel</a>
+            </h4>
+            <p class="card-text">More Information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>More Information and  Suscriptions</h2>
+        <p>The Modern Business OnLine:</p>
+        <ul>
+          <li>
+            <strong>Bootstrap v4</strong>
+          </li>
+          <li>jQuery</li>
+          <li>Java Script</li>
+          <li>Working contact form with validation</li>
+          <li>Unstyled page elements for easy customization</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Find More Information.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="#">Whats App</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; wwww.trv.com.mx</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
